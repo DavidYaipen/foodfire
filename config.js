@@ -1,12 +1,12 @@
 const pkg = require('./package')
 
 module.exports = {
-  apiKey: 'AIzaSyDBM8REAXrMtwLbO0Dv1iL6hEaU-jzVdFk',
-  projectId: 'vueshop-30fea',
-  authDomain: 'vueshop-30fea.firebaseapp.com',
+  apiKey: 'AIzaSyBuYbigctH6zGdZlEbgAP1P4iih8XCxPw4',
+  projectId: 'appshop-b8e43',
+  authDomain: 'appshop-b8e43.firebaseapp.com',
   ANALYTICS_TRACKING_ID: 'UA-49421899-3',
   clearCart: true, // Whether to clear the cart after order is placed. Useful while testing
-  currency: { symbol: '₹', code: 'INR' },
+  currency: { symbol: 'S/', code: 'SOL' },
   manifest: {
     name: 'Foodfire',
     short_name: 'Foodfire',
@@ -16,7 +16,7 @@ module.exports = {
     theme_color: '#555'
   },
   head: {
-    titleTemplate: 'Foodfire | %s',
+    titleTemplate: 'Web Ecommerce ',
     title: pkg.description,
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

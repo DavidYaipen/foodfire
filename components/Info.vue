@@ -7,28 +7,28 @@
             <div class="webrow">
               <div class="columns is-mobile">
                 <div class="column">
-                  <p class="grey">Delivery time</p>
-                  <div>45 minutes</div>
+                  <p class="grey">Tiempo de Delivery</p>
+                  <div>45 minutos</div>
                 </div>
                 <div class="column pl-10">
-                  <p class="grey">Delivery free</p>
+                  <p class="grey">Delivery Gratis</p>
                   <div class="w-132">above {{ 50 | currency }}</div>
                 </div>
               </div>
               <div class="columns is-mobile">
                 <div class="column">
-                  <p class="grey">Delivery hours</p>
+                  <p class="grey">Horas de Delivery</p>
                   <div class="w-132">11:30AM - 10:30PM</div>
                 </div>
                 <div class="column pl-10">
-                  <p class="grey">Minimum order</p>
-                  <div>{{ 0 | currency }}</div>
+                  <p class="grey">Minima Orden</p>
+                  <div>{{ 2 | currency }}</div>
                 </div>
               </div>
             </div>
             <div class="green">
               <center>
-                <b>Delivery is now open</b>
+                <b>La entrega ya está abierta</b>
               </center>
             </div>
           </div>

@@ -2,7 +2,9 @@
   <body>
     <div class="backgroundimg height"></div>
     <div class="heading">
-      <div class="link link--move title" data-letters="Foodfire">Foodfire</div>
+      <div class="link link--move title" data-letters="Foodfire">
+        Web Ecommerce <br />
+      </div>
     </div>
   </body>
 </template>
@@ -12,9 +14,9 @@ export default {
   data() {
     return {
       loading: false,
-      props: ['closed']
+      props: ['closed'],
     }
-  }
+  },
 }
 </script>
 <style scoped>

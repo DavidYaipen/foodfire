@@ -8,14 +8,11 @@
       <div class="navbar-brand">
         <a class="navbar-item a1">
           <router-link to="/">
-            <img class="logo" src="/logo.png" alt="FoodFire" height="28" />
+           <logo />
           </router-link>
         </a>
       </div>
       <div class="header-right navbar-item fx">
-        <a role="button" href="https://github.com/itswadesh/foodfire">
-          ⭐me @ GitHub
-        </a>
         <a role="button" aria-label="menu">
           <img v-if="user" :src="user.avatar" @click="go('/my/profile')" />
           <img v-else class="img" src="/person.svg" @click="googleSignIn()" />
@@ -37,8 +34,11 @@
 </template>
 <script>
 import { mapActions } from 'vuex'
-
+import Logo from "@/components/LogoWeb";
 export default {
+  components:{
+    Logo
+  },
   data() {
     return {
       loading: false

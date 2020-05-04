@@ -36,7 +36,9 @@ export default {
     }
   },
   methods: {},
-  async created() {},
+  async created() {
+    console.log(this.settings)
+  },
   components: { Loading, Skeleton, Overlay, Products, Info, Hero, CartBar }
 }
 </script>
